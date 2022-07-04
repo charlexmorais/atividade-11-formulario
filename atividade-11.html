@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+<form action="https://bemach1.com.br/html-aula-forms/cadastroRecruta.php"method="post"target="_blank">
+<h1>Aliste-se</h1>
+
+<div>
+<label for="email">e-mail</label>
+<br>
+<input type="email" placeholder="seuemail@gmail.com"name="email"id="email">
+</div>
+<br>
+<div>
+<label for="senha">senha</label>
+<br>
+<input type="password" placeholder="Crie uma senha"name="senha"id="senha">
+</div>
+<br>
+<label for="Nome completo">nome</label>
+<br>
+<input type="text" placeholder="informe o seu nome"name="nomeCompleto"id="Nome completo">
+<br>
+</div>
+<br>
+<label for=" cpf">CPF(Apenas números)</label>
+<br>
+<input type="number"placeholder="CPF" maxlength="11"name="cpf"id="cpf">
+<br>
+<div>
+<br>
+<label for=" rg">Rg(Apenas números)</label>
+<br>
+<input type="number"placeholder="Informe o seu RG" maxlength="27"name="rg"id="rg">
+<br>
+</div>
+
+<br>
+<label for="nascimento">nascimento</label>
+<br>
+<input type="date" placeholder="nascimento"name="nascimento"id="nascimento">
+<br>
+<br>
+<fieldset>
+<legend>necessidades Especiais</legend>
+<br>
+<br>
+
+<input type="radio" value="SIM" name="necessidadesEspeciais" id="SIM">
+<label for="SIM">SIM</label>
+<br>
+<br>
+
+<input type="radio" value="NÃO" name="necessidadesEspeciais" id="NÃO">
+<label for="NÃO">NÃO</label>
+</fieldset>
+
+<br>
+<br>
+<label for="Estado de residência">Estado de residência</label>
+<br>
+<select id="Estado de residencia"name="estado" class="caixa de-texto">
+    <option value="ACRE">ACRE</option>
+    <option value="ALAGOAS">ALAGOAS</option>
+    <option value="AMAPA">AMAPA</option>
+    <option value="AMAZONAS">AMAZONAS</option>
+    <option value="BAHIA">BAHIA</option>
+    <option value="CEARA">CEARA</option>
+    <option value="DISTRITO FEDERAL">DISTRITO FEDERAL</option>
+    <option value="ESPIRITO SANTO">ESPIRITO SANTO</option>
+    <option value="GOIAS">GOIAS</option>
+    <option value="MATO GROSSO">MATO GROSSO</option>
+    <option value="MATO GROSSO DO SUL">MATO GROSSO DO SUL</option>
+    <option value="MINAS GERAIS">MINAS GERAIS</option>
+    <option value="PARA">PARA</option>
+    <option value="PARAIBA">PARAIBA</option>
+    <option value="PARANA">PARANA</option>
+    <option value="PERNAMBUCO">PERNAMBUCO</option>
+    <option value="PIAUI">PIUAI</option>
+    <option value="RIO DE JANEIRO">RIO DE JANEIRO</option>
+    <option value="RIO GRANDE DO NORTE">RIO DE GRANDE DO NORTE</option>
+    <option value="RIO GRANDE DO SUL">RIO GRANDE DO SUL</option>
+    <option value="RODONIA">RODONIA</option>
+    <option value="RORAIMA">RORAIMA</option>
+    <option value="SANTA CATARINA">SANTA CATARINA</option>
+    <option value="SAO PAULO">SAO PAULO</option>
+    <option value="SERGIPE">SERGIPE</option>
+    <option value="TOCANTINS">TOCANTINS</option>
+</select>
+<br>
+<br>
+
+<fieldset>
+    <legend>Especialização desejada</legend>
+    <input type="checkbox"value="Cientista de dados (data science)"name="especializacao1">
+    <label for="Cientista de dados (data science)">Cientista de dados (data science)</label>
+    <br>
+
+    <input type="checkbox"value="Business Intelligence (BI)"name="especializacao2">
+    <label for="Business Intelligence (BI)">Business Intelligence</label>
+    <br>
+
+    <input type="checkbox"value="Engenheiro de softwares"name="especializacao3">
+    <label for="Engenheiro de softwares">Engenheiro de softwares</label>
+    <br>
+
+    <input type="checkbox"value="Segurança da informação"name="especializacao4">
+    <label for="Segurança da informação">Segurança da informação</label>
+    <br>
+    
+    <input type="checkbox"value="Tecnologias para Aplicações Web"name="especializacao5">
+    <label for="Tecnologias para Aplicações Web">Tecnologias para Aplicações Web</label>
+    <br>
+    <br>
+   
+</fieldset>
+
+    <label for="foto">Adicione sua foto</label>
+    <input type="file"value="enviar">
+    <br>
+    <input type="submit">
+    <label for="enviar usuario"></label>
+    
+    
+
+    </form>
+</body>
+</html>
